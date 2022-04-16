@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678495335269",
+    "project_id": "promanager-3dc1f",
+    "storage_bucket": "promanager-3dc1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678495335269:android:594c2d62d0cbf0e23ea78c",
+        "android_client_info": {
+          "package_name": "com.example.promanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678495335269-jfn967nr8o8d73j1t1u46eoac51dm0jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmQLoQFnjMIl4oRgbFxfQEt4vVqZ3ctks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678495335269-jfn967nr8o8d73j1t1u46eoac51dm0jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
