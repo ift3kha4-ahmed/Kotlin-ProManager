@@ -99,7 +99,7 @@ class MyProfileActivity : BaseActivity() {
                 //Displaying another toast if permission is not granted
                 Toast.makeText(
                     this,
-                    "Oops, you just denied the permission for storage. You can also allow it from settings.",
+                    getString(R.string.Stroage_permission_denied),
                     Toast.LENGTH_LONG
                 ).show()
             }
@@ -197,7 +197,7 @@ class MyProfileActivity : BaseActivity() {
 
         hideProgressDialog()
 
-        Toast.makeText(this@MyProfileActivity, "Profile updated successfully!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this@MyProfileActivity, getString(R.string.profile_update_success), Toast.LENGTH_SHORT).show()
 
         setResult(Activity.RESULT_OK)
         finish()

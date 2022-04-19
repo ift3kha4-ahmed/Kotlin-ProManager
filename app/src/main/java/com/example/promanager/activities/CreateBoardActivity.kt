@@ -74,7 +74,7 @@ class CreateBoardActivity : BaseActivity() {
             } else {
                 Toast.makeText(
                     this,
-                    "Oops, you just denied the permission for storage. You can also allow it from settings.",
+                    getString(R.string.Stroage_permission_denied),
                     Toast.LENGTH_LONG
                 ).show()
             }

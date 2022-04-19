@@ -56,7 +56,7 @@ object Constants {
 
 
     fun getFileExtension(activity: Activity, uri: Uri?): String? {
-        
+
         return MimeTypeMap.getSingleton()
             .getExtensionFromMimeType(activity.contentResolver.getType(uri!!))
     }

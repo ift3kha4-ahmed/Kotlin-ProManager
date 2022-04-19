@@ -110,7 +110,7 @@ class MembersActivity : BaseActivity() {
                 showProgressDialog(resources.getString(R.string.please_wait))
                 FirestoreClass().getMemberDetails(this@MembersActivity, email)
             } else {
-                showErrorSnackBar("Please enter members email address.")
+                showErrorSnackBar(getString(R.string.snack_bar_member_email_error))
             }
         })
         dialog.tv_cancel.setOnClickListener(View.OnClickListener {

@@ -60,5 +60,17 @@
     <string name="str_select_member">Select Member</string>
 
 
-    <string name="default_notification_channel_id">projemanag_notification_channel_id</string>
+    <string name="default_notification_channel_id" translatable="false">projemanag_notification_channel_id</string>
+
+
+    <string name="snack_bar_error_name">Please enter name.</string>
+    <string name="snack_bar_error_email">Please enter email.</string>
+    <string name="Snack_bar_error_password">Please enter password.</string>
+    <string name="Successfull_registeration">You have successfully registered.</string>
+    <string name="profile_update_success">Profile updated successfully!</string>
+    <string name="Stroage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
+    <string name="snack_bar_member_email_error">Please enter members email address.</string>
+    <string name="language_selector_options">Choose Language</string>
+    <string name="English">English</string>
+    <string name="Japanese">日本</string>
 </resources>

@@ -1,7 +1,9 @@
 package com.example.promanager.activities
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Context
+import android.content.DialogInterface
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -19,6 +21,8 @@ import com.example.promanager.adapters.BoardItemsAdapter
 import com.example.promanager.model.Board
 import com.example.promanager.model.User
 import com.example.promanager.utils.Constants
+import com.example.promanager.utils.LocaleHelper
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.iid.FirebaseInstanceId
@@ -30,6 +34,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
 
     private lateinit var mUserName: String
     private lateinit var mSharedPreferences: SharedPreferences
+    var currentLanguage:Int=0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -85,10 +90,22 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 startActivity(intent)
                 finish()
             }
+            R.id.english->{
+                val context = LocaleHelper().setLocale(this,"en")
+
+                val resource = context.resources
+
+            }
+
+            R.id.Japanese->{
+
+            }
         }
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
+
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)

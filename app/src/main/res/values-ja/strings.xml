@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProManager</string>
+    <string name="image_contentDescription">画像</string>
+    <string name="let_s_get_started_text">始めましょう</string>
+    <string name="intro_text_description">複数のデバイス間で共同作業と計画を行う.</string>
+    <string name="sign_in">サインイン</string>
+    <string name="sign_up">サインアップ</string>
+
+    <string name="sign_up_description_text">お名前、メールID、パスワードを入力して登録してください.</string>
+    <string name="name">名前</string>
+    <string name="password">パスワード</string>
+    <string name="email">メール</string>
+
+    <string name="sign_in_description_text">お名前、メールID、パスワードを入力して登録してください.</string>
+
+    <string name="please_click_back_again_to_exit">もう一度クリックして終了してください.</string>
+    <string name="please_wait">お待ちください&#8230;</string>
+
+    <string name="nav_my_profile">私のプロフィール</string>
+    <string name="nav_sign_out">サインアウト</string>
+
+    <string name="mobile">モバイル</string>
+    <string name="update">アップデート</string>
+    <string name="my_profile">私のプロフィール</string>
+
+    <string name="create_board_title">ボードを作成する</string>
+    <string name="create">作成</string>
+    <string name="board_name">ボード名</string>
+
+    <string name="no_boards_are_available">ボードはありません!!!</string>
+
+    <string name="action_add_list">リストを追加</string>
+    <string name="hint_list_name">リスト名</string>
+    <string name="action_add_card">カードを追加</string>
+    <string name="hint_card_name">カード名</string>
+    <string name="add_list">リストを追加</string>
+
+    <string name="members">メンバー</string>
+
+    <string name="add_member">メンバーを追加</string>
+    <string name="cancel">キャンセル</string>
+    <string name="add">追加</string>
+    <string name="search_member">メンバーを検索</string>
+
+    <string name="label_color">ラベルの色</string>
+    <string name="select_color">色を選択</string>
+    <string name="select_members">メンバーを選択</string>
+
+    <string name="due_date">期日</string>
+    <string name="select_due_date">期日を選択</string>
+    <string name="delete_card">カードを削除</string>
+
+    <string name="alert">アラート</string>
+    <string name="confirmation_message_to_delete_card">カードを削除してもよろしいですか \'%1$s\'?</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+
+    <string name="str_select_label_color">ラベルの色を選択</string>
+
+    <string name="str_select_member">メンバーを選択r</string>
+
+
+    <string name="snack_bar_error_name">名前を入力してください。</string>
+    <string name="snack_bar_error_email">メールアドレスを入力してください。</string>
+    <string name="Snack_bar_error_password">パスワードを入力してください。</string>
+    <string name="Successfull_registeration">登録に成功しました。.</string>
+    <string name="profile_update_success">プロファイルが正常に更新されました！</string>
+    <string name="Stroage_permission_denied">おっと、あなたはストレージの許可を拒否しました。設定から許可することもできます。</string>
+    <string name="snack_bar_member_email_error">メンバーのメールアドレスを入力してください。</string>
+    <string name="language_selector_options">Choose Language</string>
+    <string name="Japanese">日本</string>
+</resources>

@@ -77,15 +77,15 @@ class SignUpActivity : BaseActivity() {
     private fun validateForm(name: String, email: String, password: String): Boolean {
         return when {
             TextUtils.isEmpty(name) -> {
-                showErrorSnackBar("Please enter name.")
+                showErrorSnackBar(getString(R.string.snack_bar_error_name))
                 false
             }
             TextUtils.isEmpty(email) -> {
-                showErrorSnackBar("Please enter email.")
+                showErrorSnackBar(getString(R.string.snack_bar_error_email))
                 false
             }
             TextUtils.isEmpty(password) -> {
-                showErrorSnackBar("Please enter password.")
+                showErrorSnackBar(getString(R.string.Snack_bar_error_password))
                 false
             }
             else -> {
@@ -98,7 +98,7 @@ class SignUpActivity : BaseActivity() {
 
         Toast.makeText(
             this@SignUpActivity,
-            "You have successfully registered.",
+            getString(R.string.Successfull_registeration),
             Toast.LENGTH_SHORT
         ).show()
         hideProgressDialog()
